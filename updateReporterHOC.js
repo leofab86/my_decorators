@@ -13,7 +13,7 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const getConfig = function () {
-	const config = require('./decorators').myDecConfig;
+	const config = require('./decorators').myDecoratorsConfig;
 	return config;
 };
 

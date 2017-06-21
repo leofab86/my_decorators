@@ -4,7 +4,7 @@ var React = require('react');
 var exportInternalState = require('./exportInternalState');
 
 const getConfig = function () {
-	const config = require('../decorators').myDecConfig;
+	const config = require('../decorators').myDecoratorsConfig;
 	return config;
 };
 
