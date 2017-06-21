@@ -16,9 +16,9 @@ let config = {
 	stateTracker: true,
 	updateReports: { mount: false, update: false, pass: false, render: false }
 };
-exports.myDecoratorConfig = config;
+exports.myDecoratorsConfig = config;
 function setConfig(configObj) {
-	exports.myDecoratorConfig = _extends({}, config, configObj);
+	exports.myDecoratorsConfig = _extends({}, config, configObj);
 }
 
 exports.STContainer = STContainer;
