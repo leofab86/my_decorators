@@ -1,6 +1,6 @@
 'use strict';
 
-console.log('test version');
+console.log('test version 22');
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
