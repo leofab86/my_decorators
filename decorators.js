@@ -12,7 +12,7 @@ exports.myDecoratorsConfig = {
 };
 
 exports.setConfig = function (configObj) {
-    exports.myDecoratorsConfig = _extends({}, config, configObj);
+    exports.myDecoratorsConfig = _extends({}, exports.myDecoratorsConfig, configObj);
 };
 
 
