@@ -3,8 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-exports.updateReporterII = updateReporterII;
-exports.updateReporterPP = updateReporterPP;
 
 var _react = require('react');
 
@@ -16,6 +14,9 @@ const getConfig = function () {
 	const config = require('./decorators').myDecoratorsConfig;
 	return config;
 };
+
+exports.updateReporterII = updateReporterII;
+exports.updateReporterPP = updateReporterPP;
 
 function updateReporterII(WrappedComponent) {
 	var _class, _temp2;

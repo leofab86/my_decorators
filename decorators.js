@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('test version 22');
-
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
@@ -13,7 +11,7 @@ const { STContainer } = require('./stateTracker/STContainer');
 const stateTrackerII = require('./stateTracker/stateTrackerHOC');
 
 let config = {
-	stateTracker: true,
+	stateTracker: false,
 	updateReports: { mount: false, update: false, pass: false, render: false }
 };
 exports.myDecoratorsConfig = config;
@@ -25,6 +23,10 @@ exports.STContainer = STContainer;
 
 exports.stateTrackerII = stateTrackerII;
 
-const { updateReporterPP, updateReporterII } = require('./updateReporterHOC');
-exports.updateReporterPP = updateReporterPP;
-exports.updateReporterII = updateReporterII;
+
+exports.updateReporterPP = () => {
+    return { updateReporterPP } = require('./updateReporterHOC')
+}
+exports.updateReporterII = () => {
+    return { updateReporterII } = require('./updateReporterHOC')
+}
