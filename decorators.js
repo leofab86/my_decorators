@@ -25,7 +25,8 @@ exports.stateTrackerII = stateTrackerII;
 
 
 exports.updateReporterPP = () => {
-    return { updateReporterPP } = require('./updateReporterHOC')
+    const { updateReporterPP } = require('./updateReporterHOC');
+    return updateReporterPP
 }
 exports.updateReporterII = () => {
     const { updateReporterII } = require('./updateReporterHOC');
