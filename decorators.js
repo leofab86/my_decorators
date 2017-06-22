@@ -19,13 +19,8 @@ exports.setConfig = function (configObj) {
 
 
 exports.STContainer = require('./stateTracker/STContainer').STContainer;
-
 exports.stateTrackerII = require('./stateTracker/stateTrackerHOC');
 
 
 exports.updateReporterPP = require('./updateReporterHOC').updateReporterPP;
-
-exports.updateReporterII = () => {
-    const { updateReporterII } = require('./updateReporterHOC');
-    return updateReporterII
-}
+exports.updateReporterII = require('./updateReporterHOC').updateReporterII;
