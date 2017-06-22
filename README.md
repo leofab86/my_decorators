@@ -1,10 +1,25 @@
-v1.0.17
+my_decorators v1.1.0
 
-Description: 
+Latest Update: Made more modular and easier to add custom HOCs and connect them to decorators.js controller
 
-Update: Testing
+Description: Build custom HOCs, wire them up to the decorators.js controller and control / import them from one npm package.
+
+
+Instructions:
+* import setConfig into your project before you render your highest level component, such as Redux' Provider or the React-Router component.
+* use setConfig to setup the my_decorators config (you can turn on / off decorators, change their config, its up to how you designed the HOCs)
+* import myDecoratorsConfig anywhere you need to control your decorators with the config
+* import decorators in any of your components and apply them above the component class or by calling the functional component inside the decorator function:
+
+Example:
+
 
 ToDo:
+* Make updateReporter and StateTracker compatible with React Native
+* Write a better README
+
+
+
 
 
 Updating the package:
