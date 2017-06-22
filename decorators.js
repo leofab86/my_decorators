@@ -28,5 +28,6 @@ exports.updateReporterPP = () => {
     return { updateReporterPP } = require('./updateReporterHOC')
 }
 exports.updateReporterII = () => {
-    return { updateReporterII } = require('./updateReporterHOC')
+    const { updateReporterII } = require('./updateReporterHOC');
+    return updateReporterII
 }
