@@ -11,10 +11,10 @@ exports.myDecoratorsConfig = {
     updateReports: { mount: false, update: false, pass: false, render: false }
 };
 
-exports.setConfig = function setConfig (configObj) {
+function setConfig (configObj) {
     exports.myDecoratorsConfig = _extends({}, exports.myDecoratorsConfig, configObj);
 };
-
+exports.setConfig = setConfig;
 
 
 // ---------------------------- STATETRACKER -----------------------------------
