@@ -13,11 +13,11 @@ module.exports = function (WrappedComponent) {
 		constructor(...args) {
 			var _temp;
 
-			return _temp = super(...args), this.name = WrappedComponent.displayName || WrappedComponent.name, this.stateTracker = getConfig().showStateTracker, _temp;
+			return _temp = super(...args), this.name = WrappedComponent.displayName || WrappedComponent.name, this.showStateTracker = getConfig().showStateTracker, _temp;
 		}
 
 		componentDidMount() {
-			if (!this.stateTracker) {
+			if (!this.showStateTracker) {
 				delete this.__proto__.componentWillUnmount;
 				delete this.__proto__.componentDidUpdate;
 			}
