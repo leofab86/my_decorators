@@ -24,10 +24,8 @@ exports.STContainer = STContainer;
 exports.stateTrackerII = stateTrackerII;
 
 
-exports.updateReporterPP = (function () {
-    const { updateReporterPP } = require('./updateReporterHOC');
-    return updateReporterPP
-})();
+exports.updateReporterPP = require('./updateReporterHOC').updateReporterPP;
+
 exports.updateReporterII = () => {
     const { updateReporterII } = require('./updateReporterHOC');
     return updateReporterII
