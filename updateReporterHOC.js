@@ -101,7 +101,7 @@ function updateReporterII(WrappedComponent) {
 function updateReporterPP(WrappedComponent) {
 	var _class2, _temp4;
 
-	let updateReporterHOC_PP = (_temp4 = _class2 = class updateReporterHOC_PP extends _react2.default.PureComponent {
+	let updateReporterHOC_PP = (_temp4 = _class2 = class updateReporterHOC_PP extends _react2.default.Component {
 		constructor(...args) {
 			var _temp3;
 
