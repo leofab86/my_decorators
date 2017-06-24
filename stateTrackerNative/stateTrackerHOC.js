@@ -13,7 +13,7 @@ module.exports = function (WrappedComponent) {
 		constructor(...args) {
 			var _temp;
 
-			return _temp = super(...args), this.name = WrappedComponent.displayName || WrappedComponent.name, this.showStateTracker = getConfig().showStateTracker, _temp;
+			return _temp = super(...args), this.name = WrappedComponent.displayName || WrappedComponent.name, this.showStateTracker = getConfig().showStateTrackerNative, _temp;
 		}
 
 		componentDidMount() {

@@ -31,6 +31,21 @@ exports.stateTrackerII = require('./stateTracker/stateTrackerHOC');
 
 
 
+// ---------------------------- STATETRACKER NATIVE -----------------------------------
+// -----------------------------------------------------------------------------
+
+setConfig({
+    showStateTrackerNative: true
+})
+
+exports.STContainer = require('./stateTrackerNative/STContainer').STContainer;
+exports.stateTrackerII = require('./stateTrackerNative/stateTrackerHOC');
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+
+
 // ---------------------------- UPDATEREPORTER ---------------------------------
 // ------------------------------------------------------------------------------
 
