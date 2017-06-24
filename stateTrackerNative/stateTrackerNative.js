@@ -28,7 +28,7 @@ export default class StateTrackerNative extends Component {
     render () {
         const combinedState = { Store: this.props.appState, ...this.state };
         return (
-            <View style={styles.stateTracker} ><Text onPress={()=>console.log(combinedState)}>Log State</Text></View>
+            <View style={styles.stateTracker} ><Text style={{fontSize: 20}} onPress={()=>console.log(combinedState)}>Log State</Text></View>
         )
     }
 }
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'blue',
         width: 100,
-        height: 100,
+        height: 30,
         position: 'absolute',
         right: 0,
         bottom: 0
