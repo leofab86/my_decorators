@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'yellow',
         borderWidth: 1,
         borderColor: 'blue',
-        width: '100',
-        height: '100',
+        width: 100,
+        height: 100,
         position: 'absolute',
         right: 0,
         bottom: 0
