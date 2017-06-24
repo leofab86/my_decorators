@@ -42,6 +42,12 @@ const styles = StyleSheet.create({
         height: 30,
         position: 'absolute',
         right: 0,
-        bottom: 0
+        bottom: 0,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    text: {
+        fontSize: 20,
+        fontWeight: 'bold'
     }
 })
