@@ -12,6 +12,8 @@ const mapStateToProps = appState => {
 	return { appState };
 };
 
+console.log(_stateTracker2.default);
+
 const STContainer = (0, _reactRedux.connect)(mapStateToProps)(_stateTracker2.default);
 
 STContainer.displayName = 'STContainer';
