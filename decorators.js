@@ -38,8 +38,8 @@ setConfig({
     showStateTrackerNative: true
 })
 
-exports.STContainer = require('./stateTrackerNative/STContainer').STContainer;
-exports.stateTrackerII = require('./stateTrackerNative/stateTrackerHOC');
+exports.STContainerNative = require('./stateTrackerNative/STContainer').STContainer;
+exports.stateTrackerNativeII = require('./stateTrackerNative/stateTrackerHOC');
 
 // -----------------------------------------------------------------------------
 // -----------------------------------------------------------------------------
