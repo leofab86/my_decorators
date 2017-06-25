@@ -1,6 +1,6 @@
-my_decorators v1.1.0
+my_decorators v1.2.0
 
-Latest Update: Made more modular and easier to add custom HOCs and connect them to decorators.js controller
+Latest Update: Added StateTrackerNative for react-native
 
 Description: Build custom HOCs, wire them up to the decorators.js controller and control / import them from one npm package.
 
@@ -15,7 +15,6 @@ Example:
 
 
 ToDo:
-* Make updateReporter and StateTracker compatible with React Native
 * Write a better README
 
 
