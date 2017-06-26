@@ -1,6 +1,6 @@
-my_decorators v1.2.0
+my_decorators v1.2.1
 
-Latest Update: Added StateTrackerNative for react-native
+Latest Update: Added MIT License
 
 Description: Build custom HOCs, wire them up to the decorators.js controller and control / import them from one npm package.
 
