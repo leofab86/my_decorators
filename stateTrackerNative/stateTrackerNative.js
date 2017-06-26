@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
+import Immutable from 'immutable'
 
 import activeComponentStore from './activeComponentStore'
 
@@ -28,7 +29,7 @@ export default class StateTrackerNative extends Component {
     render () {
         const combinedState = { Store: this.props.appState, ...this.state };
         return (
-            <View style={styles.stateTracker} ><Text style={{fontSize: 20}} onPress={()=>console.log(combinedState)}>Log State</Text></View>
+            <View style={styles.stateTracker} ><Text style={{fontSize: 20}} onPress={()=>console.log(Immutable.toJS(combinedState))}>Log State</Text></View>
         )
     }
 }
