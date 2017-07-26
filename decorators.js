@@ -34,12 +34,12 @@ exports.stateTrackerII = require('./stateTracker/stateTrackerHOC');
 // ---------------------------- STATETRACKER NATIVE -----------------------------------
 // -----------------------------------------------------------------------------
 
-setConfig({
-    showStateTrackerNative: true
-})
-
-exports.STContainerNative = require('./stateTrackerNative/STContainer').STContainer;
-exports.stateTrackerNativeII = require('./stateTrackerNative/stateTrackerHOC');
+// setConfig({
+//     showStateTrackerNative: true
+// })
+//
+// exports.STContainerNative = require('./stateTrackerNative/STContainer').STContainer;
+// exports.stateTrackerNativeII = require('./stateTrackerNative/stateTrackerHOC');
 
 // -----------------------------------------------------------------------------
 // -----------------------------------------------------------------------------
