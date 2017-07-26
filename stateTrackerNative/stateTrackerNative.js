@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
-import Immutable from 'immutable'
+const React = require('react');
+const Component = React.Component;
 
-import activeComponentStore from './activeComponentStore'
+const View = require('react-native').View;
+const Text = require('react-native').Text;
+const StyleSheet = require('react-native').StyleSheet;
+const Immutable = require('immutable');
 
-export default class StateTrackerNative extends Component {
+const activeComponentStore = require('./activeComponentStore');
+
+class StateTrackerNative extends Component {
 
     state = {
         State: {},
@@ -33,6 +37,8 @@ export default class StateTrackerNative extends Component {
         )
     }
 }
+
+module.exports = StateTrackerNative;
 
 const styles = StyleSheet.create({
     stateTracker: {
